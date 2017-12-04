@@ -2,8 +2,10 @@
 This project detects faces in the image (if present) using hadoop.
 
 ## Getting Started
-This project involves 2 processes- 
+This project involves 2 processes-
+
 	- creation of sequence file.
+	
 	- detection of faces in the image using the sequence file.
 
 ### Prerequisites
