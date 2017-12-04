@@ -46,12 +46,12 @@ This project involves 2 processes-
 
 1. Transfer the folder containing the frames to HDFS.
 
-	command - **bin/hadoop fs -copyFromLocal \<Absolute path of the folder in local system> <Destination folder name>**
+	command - **bin/hadoop fs -copyFromLocal \<Absolute path of the folder in local system> \<Destination folder name>**
 
 2. Edit the input file containing absolute path of each frame in HDFS as needed and transfer the file to HDFS.
 
 3. Run the first job using the jar file having **Main.java** as the main class and using the file with absolute paths as input.
 	
-	command - **bin/hadoop jar \<absolute path of jar file> <input file> <output folder name>**
+	command - **bin/hadoop jar \<absolute path of jar file> \<input file> \<output folder name>**
 
 4. Run the second job using the jar file having **Image.java** as the main class and input as the output file of the previous job.
